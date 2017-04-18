@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: sample-client
+  profiles:
+    active: uat
+---
+
+spring:
+  profiles: dev
+my: 
+  name: Dushyantha  
+---
+
+spring:
+  profiles: uat
+my: 
+  name: Samanbaddha
